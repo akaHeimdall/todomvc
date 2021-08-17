@@ -30,6 +30,7 @@ jobs:
       - name: Make envfile
         uses: SpicyPizza/create-envfile@v1
         with:
+          envkey_app: "JurorSearch"
           apiKey: "AIzaSyAetzYr58dbTRipl5BFktCqOgEu9DyhclM"
           authDomain: "jurorsearch-staging.firebaseapp.com"
           projectId: "jurorsearch-staging"
