@@ -30,14 +30,14 @@ jobs:
       - name: Make envfile
         uses: SpicyPizza/create-envfile@v1
         with:
-          envkey_apiKey: "AIzaSyAetzYr58dbTRipl5BFktCqOgEu9DyhclM"
-          envkey_authDomain: "jurorsearch-staging.firebaseapp.com"
-          envkey_projectId: "jurorsearch-staging"
-          envkey_storageBucket: "jurorsearch-staging.appspot.com"
-          envkey_messagingSenderId: "1026767447442"
-          envkey_appId: "1:1026767447442:web:cb883ae06abb0e28cecd4b"
-          envkey_measurementId: "G-PKRELT9WXZ"
-          envkey_functionsUrl: "https://us-central1-jurorsearch-staging.cloudfunctions.net/api"
+          apiKey: "AIzaSyAetzYr58dbTRipl5BFktCqOgEu9DyhclM"
+          authDomain: "jurorsearch-staging.firebaseapp.com"
+          projectId: "jurorsearch-staging"
+          storageBucket: "jurorsearch-staging.appspot.com"
+          messagingSenderId: "1026767447442"
+          appId: "1:1026767447442:web:cb883ae06abb0e28cecd4b"
+          measurementId: "G-PKRELT9WXZ"
+          functionsUrl: "https://us-central1-jurorsearch-staging.cloudfunctions.net/api"
           # some_other_variable: foobar
           # directory: <directory_name>
           file_name: .env
