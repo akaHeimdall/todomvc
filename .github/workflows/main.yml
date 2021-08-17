@@ -41,3 +41,7 @@ jobs:
           # some_other_variable: foobar
           # directory: <directory_name>
           file_name: .env
+      
+      - name: Checking .env
+        run: pwd
+        run: cat .env
