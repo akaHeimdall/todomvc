@@ -18,8 +18,8 @@ jobs:
         containers: [1, 2, 3, 4, 5]
 
   steps:
-    - name: Checkout repo
-      uses: actions/checkout@v2 
+    # - name: Checkout repo
+    - uses: actions/checkout@v2 
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
