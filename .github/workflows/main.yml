@@ -42,6 +42,5 @@ jobs:
           # directory: <directory_name>
           file_name: .env
       
-      - name: Checking .env
-        run: pwd
-        run: cat .env
+      - run: pwd
+      - run: cat .env
